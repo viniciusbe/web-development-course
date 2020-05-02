@@ -1,0 +1,22 @@
+ctrl + shift + p => lista ferramentas vs code
+
+ctrl + p => busca de arquivos (Digitar '>' mostra todas as ferramentas)
+
+ctrl + g + nº da linha + enter => mudar o cursor pra linha digitada
+
+alt + setas cima/baixo => mudar todo o codigo de uma linha para outra linha
+
+alt + setas pro lado => navegar entre palavras
+
+alt + shift + setas cima/baixo => duplica a linha pra cima/baixa
+
+ctrl + x = apagar a linha
+
+ctrl + shift + l = modificar todas as ocorrencias //  ou ctrl + d para selecionar uma por uma
+
+ctrl + alt + setas cima/baixo = duplica o cursor (segurar alt para clicar em outra linha)
+
+ctrl + shift + o = componentes do codigo
+
+
+
