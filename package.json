@@ -1,0 +1,28 @@
+{
+  "name": "cursoDeWebEmJs",
+  "version": "1.0.0",
+  "description": "Esse repositório contém arquivos do curso 'Desenvolvimento Web Moderno com JavaScript Completo 2020', que foi adquirido na Udemy e possui 86 horas. Atualmente estou cursando e sempre após fazer uma aula ou exercício coloco aqui. Alguns temas abordados nesse curso são :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusbe/cursoDeWebEmJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusbe/cursoDeWebEmJs/issues"
+  },
+  "homepage": "https://github.com/viniciusbe/cursoDeWebEmJs#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
+}
