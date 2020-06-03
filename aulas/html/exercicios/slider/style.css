@@ -1,0 +1,18 @@
+*{
+    position: absolute;
+    display: block;
+    width:513px;
+    height:342px;
+    
+} 
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+}
+.carousel-slide {
+    position: absolute;
+    
+}
+
+
