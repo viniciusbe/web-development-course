@@ -1,0 +1,71 @@
+<video id="meuVideo" width="800" height="450" autoplay controls muted controlsList="nodownload">
+    <source src="http://files.cod3r.com.br/curso-web/video.mp4" type="video/mp4">
+    Seu browser não suporta a tag de vídeo.
+</video>
+
+<div wm-progresso="meuVideo" class="progresso">
+    <div></div>
+</div>
+
+<div>
+    <button wm-play="meuVideo">Play</button>
+    <button wm-pause="meuVideo">Pause</button>
+</div>
+
+<style>
+    .progresso {
+        height: 20px;
+        width: 500px;
+        border: solid 1px #444;
+        margin: 20px;
+    }
+
+    .progresso>div {
+        background-color: red;
+        color: white;
+        height: 100%;
+        text-align: right;
+        font-size: 14px;
+        width: 0%;
+    }
+</style>
+
+<script>
+    let video = document.getElementById("meuVideo");
+    const buttonPlay = document.querySelector('[wm-play]');
+    const buttonPause = document.querySelector('[wm-pause]');
+    const barraProgresso = document.querySelector(".progresso > div");
+    let timer;
+    let tempoTotal;
+
+    buttonPlay.onclick = function () {
+        video.play();
+        aumentarBarra(tempoTotal);
+    }
+    buttonPause.onclick = function () {
+        video.pause();
+        pararLoop();
+    }
+
+    video.onloadedmetadata = function () {
+        tempoTotal = video.duration;
+        aumentarBarra(tempoTotal);
+    }
+    if (video.autoplay) {
+        aumentarBarra(tempoTotal);
+        console.log('played');
+    }
+
+
+    function aumentarBarra(tempoTotal) {
+        timer = setTimeout(function () {
+            const tempoAtual = video.currentTime;
+            const porcProgresso = 100 * (tempoAtual / tempoTotal);
+            barraProgresso.style.width = porcProgresso + '%';
+            aumentarBarra(tempoTotal);
+        }, 100)
+    }
+    function pararLoop() {
+        clearTimeout(timer);
+    }
+</script>
