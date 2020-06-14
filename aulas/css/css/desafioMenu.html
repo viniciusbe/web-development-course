@@ -7,8 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-
-        body{
+        body {
             margin: 0px;
             background-color: rgb(204, 202, 202);
         }
@@ -18,14 +17,18 @@
             border-bottom: solid 3px #6dabe6;
         }
 
-        div,nav,aside,li{
+        div,
+        nav,
+        aside,
+        li {
             display: inline-block;
             vertical-align: middle;
         }
 
-       .autenticacao div{
-           text-align: right;
-       }
+        aside {
+            float: right;
+            padding: 15px 30px 15px 15px;
+        }
 
 
         img {
@@ -33,25 +36,31 @@
             height: 50px;
         }
 
-        a{
+        a {
             font-family: 'Oswald';
             color: white;
             text-decoration: none;
             padding: 15px;
         }
 
-        nav  a:hover, aside  a:hover {
+        nav a:hover {
             background-color: #6dabe6;
             color: #292828;
         }
 
-        .menu-toggle { 
+        .menu-toggle {
             display: none;
         }
 
         .cabecalho {
             background-color: #292828;
-            
+
+        }
+
+        .destaque {
+            padding: 15px 25px;
+            background-color: red;
+            border-radius: 25px;
         }
     </style>
 </head>
@@ -82,14 +91,54 @@
                 </li>
             </ul>
         </nav>
-        <div class="autenticacao">
+        <aside class="autenticacao">
             <a href="#login">Login</a>
             <a href="#registar" class="botao destaque">Registrar</a>
-        </div>
+        </aside>
     </header>
 
     <script>
-        // ...
+
+        window.onhashchange = locationHashChanged
+
+        function locationHashChanged() {
+            if (location.hash === "#inicio") {
+                hashInicio()
+            }
+            if (location.hash === "#cursos") {
+                hashCursos()
+            }
+            if (location.hash === "#sobre") {
+                hashSobre()
+            }
+            if (location.hash === "#contato") {
+                hashContato()
+            }
+        }
+
+        function hashInicio() {
+            const hash = document.querySelector(".menu [href='#inicio']")
+            hash.style.backgroundColor = '#6dabe6'
+            hash.style.color = '#292828'
+        }
+
+        function hashCursos() {
+            const hash = document.querySelector(".menu [href='#cursos']")
+            hash.style.backgroundColor = '#6dabe6'
+            hash.style.color = '#292828'
+        }
+
+        function hashSobre() {
+            const hash = document.querySelector(".menu [href='#sobre']")
+            hash.style.backgroundColor = '#6dabe6'
+            hash.style.color = '#292828'
+        }
+
+        function hashContato() {
+            const hash = document.querySelector(".menu [href='#contato']")
+            hash.style.backgroundColor = '#6dabe6'
+            hash.style.color = '#292828'
+        }
     </script>
 </body>
 
