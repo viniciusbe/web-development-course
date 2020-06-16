@@ -62,6 +62,24 @@
             background-color: red;
             border-radius: 25px;
         }
+
+        @media (max-width: 840px) {
+            .autenticacao { display: none;}
+        }
+
+        @media (max-width: 620px) {
+            .menu {display: none;}
+            .menu-toggle {display: inline-block;}
+        }
+
+        .menu-toggle:hover{
+            cursor:pointer;
+        }
+
+        .menu-toggle {
+            float: right;
+            margin: 15px 30px 15px 15px;
+        }
     </style>
 </head>
 
@@ -102,6 +120,8 @@
         window.onhashchange = locationHashChanged
 
         function locationHashChanged() {
+
+            
             if (location.hash === "#inicio") {
                 hashInicio()
             }
@@ -138,6 +158,20 @@
             const hash = document.querySelector(".menu [href='#contato']")
             hash.style.backgroundColor = '#6dabe6'
             hash.style.color = '#292828'
+        }
+
+        const menuToggle = document.querySelector(".menu-toggle")
+        console.log(menuToggle)
+
+        menuToggle.onclick = function() {
+            const menu = document.querySelector(".menu")
+            const style = menu.style.display
+            console.log('teste')
+            if( style === 'none'){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
         }
     </script>
 </body>
