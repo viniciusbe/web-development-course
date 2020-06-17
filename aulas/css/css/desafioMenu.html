@@ -43,7 +43,8 @@
             padding: 15px;
         }
 
-        nav a:hover {
+        nav a:hover,
+        .menu a.selected {
             background-color: #6dabe6;
             color: #292828;
         }
@@ -80,6 +81,8 @@
             float: right;
             margin: 15px 30px 15px 15px;
         }
+
+    
     </style>
 </head>
 
@@ -117,48 +120,16 @@
 
     <script>
 
-        window.onhashchange = locationHashChanged
-
-        function locationHashChanged() {
-
-            
-            if (location.hash === "#inicio") {
-                hashInicio()
-            }
-            if (location.hash === "#cursos") {
-                hashCursos()
-            }
-            if (location.hash === "#sobre") {
-                hashSobre()
-            }
-            if (location.hash === "#contato") {
-                hashContato()
-            }
+        window.onhashchange = function(e) {
+            const oldURL = e.oldURL.split('#')[1]
+            const newURL = e.newURL.split('#')[1]
+            console.log(oldURL,newURL)
+            const oldMenu = document.querySelector(`.menu a[href='#${oldURL}']`)
+            const newMenu = document.querySelector(`.menu a[href='#${newURL}']`)
+            oldMenu && oldMenu.classList.remove('selected')
+            newMenu && newMenu.classList.add('selected')
         }
 
-        function hashInicio() {
-            const hash = document.querySelector(".menu [href='#inicio']")
-            hash.style.backgroundColor = '#6dabe6'
-            hash.style.color = '#292828'
-        }
-
-        function hashCursos() {
-            const hash = document.querySelector(".menu [href='#cursos']")
-            hash.style.backgroundColor = '#6dabe6'
-            hash.style.color = '#292828'
-        }
-
-        function hashSobre() {
-            const hash = document.querySelector(".menu [href='#sobre']")
-            hash.style.backgroundColor = '#6dabe6'
-            hash.style.color = '#292828'
-        }
-
-        function hashContato() {
-            const hash = document.querySelector(".menu [href='#contato']")
-            hash.style.backgroundColor = '#6dabe6'
-            hash.style.color = '#292828'
-        }
 
         const menuToggle = document.querySelector(".menu-toggle")
         console.log(menuToggle)
