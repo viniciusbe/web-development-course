@@ -69,8 +69,11 @@
         }
 
         @media (max-width: 620px) {
-            .menu {display: none;}
             .menu-toggle {display: inline-block;}
+        }
+
+        .displayMenu {
+            display: none;
         }
 
         .menu-toggle:hover{
@@ -137,10 +140,20 @@
         menuToggle.onclick = function() {
             const menu = document.querySelector(".menu")
             const style = menu.style.display
-            console.log('teste')
             if( style === 'none'){
-                menu.style.display = 'block'
+                menu.style.display = 'inline-block'
             }else{
+                menu.style.display = 'none'
+            }
+        }
+
+        window.onresize = function(){
+            const menu = document.querySelector(".menu")
+            const width = window.innerWidth
+            console.log(width)
+            if(width >= 625) {
+                menu.style.display = 'inline-block'
+            }else {
                 menu.style.display = 'none'
             }
         }
