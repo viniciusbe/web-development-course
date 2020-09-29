@@ -1,0 +1,8 @@
+help
+'db.' e dar tab 2 vezes
+show dbs
+use nomedodb
+db.createCollection('nomedodb')
+show collections
+db.nomedodb.drop()
+db.help()

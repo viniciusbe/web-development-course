@@ -1,0 +1,21 @@
+Instalar mongoDB
+No disco C: criar pasta data/db
+Editar as variaveis:
+    - Você vai digitar Editar as variáveis de ambiente do sistema na sua barra de pesquisa do Windows
+
+    - Clica na opção Variáveis de Ambiente...
+
+    - Na caixa de baixo (Variáveis do sistema) você vai procurar a opção Path
+
+    - Quando encontrar você vai digitar Editar
+
+    - Vai abrir outra aba, nela você vai clicar em Novo
+
+    - Você vai conseguir adicionar coisas no Path agora, então você precisa 
+    colocar o caminho de instalação do seu Mongo 
+    C:\Program Files\MongoDB\Server\4.2\bin
+    
+    
+Abrir cmd e executar 'mongod'
+executar 'mongo'
+executar 'use nomedodb'
