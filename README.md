@@ -1,6 +1,30 @@
-# cursoDeWebEmJs
-Esse repositório contém arquivos do curso 'Desenvolvimento Web Moderno com JavaScript Completo 2020', que foi adquirido na Udemy e possui 86 horas. Atualmente estou cursando e sempre após fazer uma aula ou exercício coloco aqui. Alguns temas abordados nesse curso são :
+# Web development course
 
-Últimos recursos de HTML, CSS, Javascript, HTML 5, CSS 3 e como aplicar estilo usando as últimas tecnologias: CSS Grid, Flexbox. ECMAScript 6, 7, 8. React, Vue, Bootstrap 4, jQuery. Aplicações Web baseadas em Componentes.  Projeto de aplicações reais. Banco de dados relacional e não relacional NoSQL. MySQL, Postgres e MongoDB. Sistema com autenticação de usuário. Node JS. Gulp e Webpack. Desenvolver uma Aplicação com Angular 9.
+### Status : Finished :heavy_check_mark:
 
-O interessante do curso é que ele aborda a programação desde o nível básico, sendo assim acessível mesmo para uma pessoa que nunca teve contato com esse mundo.
+### Duration : 89 hours :hourglass:
+
+## Technologies used:
+
+<p align="center">
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/javascript.svg" alt="js" title="JavaScript" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/react.svg" alt="js" title="React" width="145" height="105" />
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/node-dot-js.svg" alt="node.js" title="Node.js" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/html5.svg" alt="html5" title="HTML5" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/css3.svg" alt="css3" title="CSS3" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/sass.svg" alt="sass" title="Sass" width="145" height="105"/>  
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/electron.svg" alt="electron" title="Electron" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/webpack.svg" alt="webpack" title="webpack" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/gulp.svg" alt="gulp" title="Gulp" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/mongodb.svg" alt="mongodb" title="Mongodb" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/mysql.svg" alt="mysql" title="Mysql" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/postgresql.svg" alt="postgresql" title="Postgresql" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/jquery.svg" alt="jquery" title="Jquery" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/bootstrap.svg" alt="bootstrap" title="Bootstrap" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/vue-dot-js.svg" alt="vue-dot-js" title="Vue.js" width="145" height="105"/>
+  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/angular.svg" alt="angular" title="Angular" width="145" height="105"/>
+  
+</p>
+
+## Projects made:
+
