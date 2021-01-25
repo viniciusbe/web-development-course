@@ -28,3 +28,6 @@
 
 ## Projects made:
 
+https://github.com/viniciusbe/ReactCalculator
+
+https://github.com/viniciusbe/ReactCrud
