@@ -21,8 +21,6 @@
   <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/postgresql.svg" alt="postgresql" title="Postgresql" width="145" height="105"/>
   <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/jquery.svg" alt="jquery" title="Jquery" width="145" height="105"/>
   <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/bootstrap.svg" alt="bootstrap" title="Bootstrap" width="145" height="105"/>
-  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/vue-dot-js.svg" alt="vue-dot-js" title="Vue.js" width="145" height="105"/>
-  <img src="https://github.com/viniciusbe/cursoDeWebEmJs/blob/master/.github/angular.svg" alt="angular" title="Angular" width="145" height="105"/>
   
 </p>
 
