@@ -1,8 +1,7 @@
 # Web development course
 
-### Status : Finished :heavy_check_mark:
-
-### Duration : 89 hours :hourglass:
+## [Certificate](https://www.udemy.com/certificate/UC-0c7d7383-bede-4c52-b3ab-97ea22882173/)
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-0c7d7383-bede-4c52-b3ab-97ea22882173.jpg"> </img>
 
 ## Technologies used:
 
